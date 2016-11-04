@@ -1,7 +1,6 @@
 import React, { PropTypes } from 'react';
 import css from './Accordion.css';
-
-
+import Tab from './Tab';
 
 export default class Accordion extends React.Component {
   static propTypes = {
@@ -20,35 +19,10 @@ export default class Accordion extends React.Component {
     return (
         <div className="container">
           <ul className={css.accordion}>
-            <li className={css.tabs}>
-              <div className={css.sociallinks}>
-              </div>
-              <div className={css.paragraph}>
-              </div>
-            </li>
-            <li className={css.tabs}>
-              <div className={css.sociallinks}>
-              </div>
-              <div className={css.paragraph}>
-              </div>
-            </li>
-            <li className={css.tabs}>
-              <div className={css.sociallinks}></div>
-              <div className={css.paragraph}>
-              </div>
-            </li>
-            <li className={css.tabs}>
-              <div className={css.sociallinks}>
-              </div>
-              <div className={css.paragraph}>
-              </div>
-            </li>
-            <li className={css.tabs}>
-              <div className={css.sociallinks}>
-              </div>
-              <div className={css.paragraph}>
-              </div>
-            </li>
+              <Tab h1="CONTENT" p="Learn about CONTENT."/>
+              <Tab h1="SAV" p="Learn about SAV."/>
+              <Tab h1="ECCA" p="Learn about ECCA."/>
+              <Tab h1="THE ROTATIONAL PROGRAM" p="EXCELLENT OPPORTUNITY TO LEARN LOTS."/>
           </ul>
       </div>
     );
