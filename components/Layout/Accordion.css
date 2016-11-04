@@ -126,10 +126,10 @@ body {
 .tabs:hover {
   width: 1250px;
 }
-.tabs:hover .social-links a:before {
+.tabs:hover .sociallinks a:before {
   margin-left: -100px;
 }
-.tabs:hover .social-links a:after {
+.tabs:hover .sociallinks a:after {
   margin-left: -5px;
 }
 .tabs .paragraph {
@@ -150,16 +150,16 @@ body {
   padding-right: 30px;
 }
 
-.social-links {
+.sociallinks {
   display: block;
 }
-.social-links a {
+.sociallinks a {
   display: block;
   text-indent: -9999px;
   font-size: 0;
   line-height: 0;
 }
-.social-links a:before, .social-links a:after {
+.sociallinks a:before, .sociallinks a:after {
   -moz-transition: all 0.4s ease-in-out 0.1s;
   -o-transition: all 0.4s ease-in-out 0.1s;
   -webkit-transition: all 0.4s ease-in-out;
@@ -174,7 +174,7 @@ body {
   font: normal 30px Genericons;
   color: #fff;
 }
-.social-links a:after {
+.sociallinks a:after {
   font-size: 48px;
   padding-left: 20px;
   padding-top: 80px;

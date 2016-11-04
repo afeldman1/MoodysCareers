@@ -1,6 +1,8 @@
 import React, { PropTypes } from 'react';
 import css from './Accordion.css';
 
+
+
 export default class Accordion extends React.Component {
   static propTypes = {
     className: PropTypes.string,
@@ -17,44 +19,34 @@ export default class Accordion extends React.Component {
   render() {
     return (
         <div className="container">
-          <ul className="accordion">
-            <li className="tabs">
-              <div className="social-links">
+          <ul className={css.accordion}>
+            <li className={css.tabs}>
+              <div className={css.sociallinks}>
               </div>
-              <div className="paragraph">
-                <h1>ECCA</h1>
-                <p>Learn about ECCA.</p>
+              <div className={css.paragraph}>
               </div>
             </li>
-            <li className="tabs">
-              <div className="social-links">
+            <li className={css.tabs}>
+              <div className={css.sociallinks}>
               </div>
-              <div className="paragraph">
-                <h1>ERS</h1>
-                <p></p>
+              <div className={css.paragraph}>
               </div>
             </li>
-            <li className="tabs">
-              <div className="social-links twitter-icon">
-              </div>
-              <div className="paragraph">
-                <h1>SAV</h1>
+            <li className={css.tabs}>
+              <div className={css.sociallinks}></div>
+              <div className={css.paragraph}>
               </div>
             </li>
-            <li className="tabs">
-              <div className="social-link">
+            <li className={css.tabs}>
+              <div className={css.sociallinks}>
               </div>
-              <div className="paragraph">
-                <h1></h1>
-                <p></p>
+              <div className={css.paragraph}>
               </div>
             </li>
-            <li className="tabs">
-              <div className="social-links">
+            <li className={css.tabs}>
+              <div className={css.sociallinks}>
               </div>
-              <div className="paragraph">
-                <h1>THE ROTATIONAL PROGRAM</h1>
-                <p>EXCELLENT OPPORTUNITY TO LEARN LOTS</p>
+              <div className={css.paragraph}>
               </div>
             </li>
           </ul>
